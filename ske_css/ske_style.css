@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+dl {
+  display: table;
+  width: 100%;
+  margin: 0 20px;
+}
+
+dt {
+  display: table-cell;
+  width: 100px;
+  vertical-align: middle;
+  font-weight: bold;
+  text-align: center;
+}
+
+dd {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+ul {
+  padding-right: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+input[type='text'] {
+  border: 1px solid #d5d5d5;
+  width: 90%;
+  height: 40px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+textarea {
+  border: 1px solid #d5d5d5;
+  width: 90%;
+  height: 500px;
+  padding: 10px 10px;
+  margin: 0 10px;
+  resize: none;
+}
+
+input[type='submit'] {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 50px;
+  color: #ffffff;
+  background-color: black;
+  border: 0;
+  border-radius: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.ske_board_form dl {
+  margin: 0 20px 10px;
+}
+
+.ske_board_view dl {
+  border-bottom: 1px solid #d5d5d5;
+  border-left: 3px solid #575757;
+  border-right: 3px solid #575757;
+}
+
+.ske_board_view dl:first-child {
+  border-top: 3px solid #575757;
+}
+
+.ske_board_view dl:last-child {
+  border-bottom: 3px solid #575757;
+}
+
+.ske_board_view dt {
+  padding: 20px 0;
+  background-color: #f6fc95;
+}
+
+.ske_board_view dd {
+  padding: 20px 20px;
+}
+
+.btns a {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 20px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: black;
+  border: 0;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.ske_board_list li {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.ske_board_list li:first-child {
+  border-top: 2px solid #575757;
+}
+
+.ske_board_list li:last-child {
+  border-bottom: 2px solid #575757;
+}
+
+.ske_board_list li:nth-child(2n) {
+  background-color: #b8d9ff;
+
+}
+
+.ske_board_list li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.ske_board_list .subject {
+  float: left;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.ske_board_list .ske_poster_info {
+  float: right;
+  padding: 20px;
+}
